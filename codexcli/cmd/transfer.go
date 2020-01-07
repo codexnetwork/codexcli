@@ -3,7 +3,7 @@
 package cmd
 
 import (
-	"github.com/eoscanada/eos-go/token"
+	"github.com/codexnetwork/codexio-go/token"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

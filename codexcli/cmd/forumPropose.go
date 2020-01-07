@@ -6,9 +6,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/eoscanada/eos-go"
+	"github.com/codexnetwork/codexio-go"
 
-	"github.com/eoscanada/eos-go/forum"
+	"github.com/codexnetwork/codexio-go/forum"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"github.com/tidwall/sjson"

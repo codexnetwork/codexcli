@@ -3,11 +3,11 @@ package main
 import (
 	// Load all contracts here, so we can always read and decode
 	// transactions with those contracts.
-	_ "github.com/eoscanada/eos-go/msig"
-	_ "github.com/eoscanada/eos-go/system"
-	_ "github.com/eoscanada/eos-go/token"
+	_ "github.com/codexnetwork/codexio-go/msig"
+	_ "github.com/codexnetwork/codexio-go/system"
+	_ "github.com/codexnetwork/codexio-go/token"
 
-	"github.com/eoscanada/eosc/eosc/cmd"
+	"github.com/codexnetwork/codexcli/codexcli/cmd"
 )
 
 var version = "dev"

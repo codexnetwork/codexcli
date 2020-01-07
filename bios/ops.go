@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"reflect"
 
-	eos "github.com/eoscanada/eos-go"
-	"github.com/eoscanada/eos-go/ecc"
-	"github.com/eoscanada/eos-go/system"
-	"github.com/eoscanada/eos-go/token"
-	"github.com/eoscanada/eosc/bios/unregd"
+	eos "github.com/codexnetwork/codexio-go"
+	"github.com/codexnetwork/codexio-go/ecc"
+	"github.com/codexnetwork/codexio-go/system"
+	"github.com/codexnetwork/codexio-go/token"
+	"github.com/codexnetwork/codexcli/bios/unregd"
 )
 
 type Operation interface {

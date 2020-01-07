@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"strings"
 
-	eos "github.com/eoscanada/eos-go"
+	eos "github.com/codexnetwork/codexio-go"
 	"github.com/spf13/cobra"
 )
 

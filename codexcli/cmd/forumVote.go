@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/eoscanada/eos-go/forum"
+	"github.com/codexnetwork/codexio-go/forum"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

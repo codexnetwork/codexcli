@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	eos "github.com/eoscanada/eos-go"
-	"github.com/eoscanada/eos-go/system"
+	eos "github.com/codexnetwork/codexio-go"
+	"github.com/codexnetwork/codexio-go/system"
 	"github.com/spf13/cobra"
 )
 

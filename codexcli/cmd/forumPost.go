@@ -5,8 +5,8 @@ package cmd
 import (
 	"encoding/json"
 
-	"github.com/eoscanada/eos-go"
-	"github.com/eoscanada/eos-go/forum"
+	"github.com/codexnetwork/codexio-go"
+	"github.com/codexnetwork/codexio-go/forum"
 	"github.com/pborman/uuid"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

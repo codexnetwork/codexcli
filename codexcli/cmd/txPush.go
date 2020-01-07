@@ -11,7 +11,7 @@ import (
 	"regexp"
 	"strings"
 
-	eos "github.com/eoscanada/eos-go"
+	eos "github.com/codexnetwork/codexio-go"
 	"github.com/spf13/cobra"
 	"github.com/tidwall/gjson"
 )

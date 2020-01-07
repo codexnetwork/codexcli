@@ -8,7 +8,7 @@ import (
 
 	"os"
 
-	"github.com/eoscanada/eos-go/system"
+	"github.com/codexnetwork/codexio-go/system"
 	"github.com/spf13/cobra"
 )
 

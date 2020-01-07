@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	eos "github.com/eoscanada/eos-go"
+	eos "github.com/codexnetwork/codexio-go"
 	"github.com/spf13/cobra"
 )
 

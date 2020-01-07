@@ -8,10 +8,10 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/eoscanada/eos-go"
-	"github.com/eoscanada/eos-go/ecc"
-	"github.com/eoscanada/eosc/cli"
-	eosvault "github.com/eoscanada/eosc/vault"
+	"github.com/codexnetwork/codexio-go"
+	"github.com/codexnetwork/codexio-go/ecc"
+	"github.com/codexnetwork/codexcli/cli"
+	eosvault "github.com/codexnetwork/codexcli/vault"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

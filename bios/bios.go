@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/eoscanada/eos-go"
-	"github.com/eoscanada/eos-go/ecc"
+	"github.com/codexnetwork/codexio-go"
+	"github.com/codexnetwork/codexio-go/ecc"
 )
 
 type BIOS struct {

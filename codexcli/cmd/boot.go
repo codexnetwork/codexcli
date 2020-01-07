@@ -3,8 +3,8 @@ package cmd
 import (
 	"path/filepath"
 
-	eos "github.com/eoscanada/eos-go"
-	"github.com/eoscanada/eosc/bios"
+	eos "github.com/codexnetwork/codexio-go"
+	"github.com/codexnetwork/codexcli/bios"
 	homedir "github.com/mitchellh/go-homedir"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
@@ -15,7 +15,7 @@ var bootCmd = &cobra.Command{
 	Short: "Boot a fresh network, using the now famous eos-bios.",
 	Long: `Boot a fresh network, using the now famous eos-bios.
 
-Use one of the boot sequences in https://github.com/eoscanada/eosc/tree/master/bootseqs
+Use one of the boot sequences in https://github.com/codexnetwork/codexcli/tree/master/bootseqs
 to setup a clean EOSIO blockchain, with the features you like.
 
 Use a base config over there, run your node, create a new Vault and use it

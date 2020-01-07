@@ -3,7 +3,7 @@
 package cmd
 
 import (
-	"github.com/eoscanada/eos-go/rex"
+	"github.com/codexnetwork/codexio-go/rex"
 	"github.com/spf13/cobra"
 )
 

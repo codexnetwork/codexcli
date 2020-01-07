@@ -3,7 +3,7 @@
 package cmd
 
 import (
-	"github.com/eoscanada/eos-go/msig"
+	"github.com/codexnetwork/codexio-go/msig"
 	"github.com/spf13/cobra"
 )
 

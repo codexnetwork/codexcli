@@ -10,8 +10,8 @@ import (
 	"sort"
 	"strings"
 
-	eos "github.com/eoscanada/eos-go"
-	"github.com/eoscanada/eos-go/msig"
+	eos "github.com/codexnetwork/codexio-go"
+	"github.com/codexnetwork/codexio-go/msig"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )
