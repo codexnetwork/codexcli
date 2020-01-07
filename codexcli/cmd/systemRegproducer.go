@@ -3,10 +3,10 @@ package cmd
 import (
 	"fmt"
 
+	"github.com/spf13/cobra"
+
 	"github.com/codexnetwork/codexio-go/ecc"
 	"github.com/codexnetwork/codexio-go/system"
-	"github.com/spf13/cobra"
-	"github.com/spf13/viper"
 )
 
 var systemRegisterProducerCmd = &cobra.Command{
@@ -22,7 +22,7 @@ var systemRegisterProducerCmd = &cobra.Command{
 		websiteURL := args[2]
 
 		pushEOSCActions(api,
-			system.NewRegProducer(accountName, publicKey, websiteURL, uint16(viper.GetInt("system-regproducer-cmd-location"))),
+			system.NewRegProducer(accountName, publicKey, websiteURL, 1000),
 		)
 	},
 }

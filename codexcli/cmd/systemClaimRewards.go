@@ -3,21 +3,23 @@
 package cmd
 
 import (
-	"github.com/codexnetwork/codexio-go/system"
 	"github.com/spf13/cobra"
+
+	"github.com/codexnetwork/codexio-go/system"
 )
 
 var systemClaimRewardsCmd = &cobra.Command{
-	Use:   "claimrewards [owner]",
+	Use:   "claimrewards [owner] [bpname]",
 	Short: "Claim block production rewards. Once per day, don't forget it!",
 	Args:  cobra.ExactArgs(1),
 	Run: func(cmd *cobra.Command, args []string) {
 		api := getAPI()
 
 		owner := toAccount(args[0], "owner")
+		bpname := toAccount(args[0], "bpname")
 
 		pushEOSCActions(api,
-			system.NewClaimRewards(owner),
+			system.NewClaimRewards(owner, bpname),
 		)
 	},
 }
